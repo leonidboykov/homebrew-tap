@@ -1,9 +1,9 @@
 class Gosling < Formula
   desc "HTML redirects generator"
-  homepage "https://github.com/leonidboykov/gosling"
-  url "https://github.com/leonidboykov/gosling/releases/download/v0.1.3/gosling_0.1.3_macOS_x86_64.tar.gz"
-  version "0.1.3"
-  sha256 "7df575782f6b81042ecab1e16cc229797e576229e0a71bb3333ef551e89b0eb1"
+  homepage "https://leonidboykov.github.io/gosling/"
+  url "https://github.com/leonidboykov/gosling/releases/download/v0.1.4/gosling_0.1.4_macOS_x86_64.tar.gz"
+  version "0.1.4"
+  sha256 "473d1fc09ced90c8560c09bb374b571763aa8df0ec095ae2c11d573355e458cb"
 
   def install
     bin.install "gosling"
