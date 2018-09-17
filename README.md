@@ -1,2 +1,3 @@
-# homebrew-tap
-Homebrew Formulae for my projects binaries.
+# Homebrew Tap
+
+[Homebrew](https://brew.sh) Formulae for my projects binaries.
