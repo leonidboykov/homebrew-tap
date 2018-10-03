@@ -1,9 +1,9 @@
 class Getmoe < Formula
   desc "cli tool for boorus"
   homepage "https://github.com/leonidboykov/getmoe"
-  url "https://github.com/leonidboykov/getmoe/releases/download/v0.3.0/getmoe_0.3.0_macOS_x86_64.tar.gz"
-  version "0.3.0"
-  sha256 "0ab0c82d4b455f197a2fbdbb5038da6d835c4107101af04de53f161cfc308f90"
+  url "https://github.com/leonidboykov/getmoe/releases/download/v0.3.1/getmoe_0.3.1_macOS_x86_64.tar.gz"
+  version "0.3.1"
+  sha256 "211eaff798b797fcbf4bb4b9a3840607161ca79da7161743b9753a51436837c6"
 
   def install
     bin.install "getmoe"
