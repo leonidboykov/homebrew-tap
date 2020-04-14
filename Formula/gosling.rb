@@ -2,16 +2,16 @@
 class Gosling < Formula
   desc "HTML redirects generator"
   homepage "https://leonidboykov.github.io/gosling/"
-  version "0.1.7"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/leonidboykov/gosling/releases/download/v0.1.7/gosling_0.1.7_macOS_x86_64.tar.gz"
-    sha256 "dd8e6cf5a0461dd408f18289ee7ed3cdffd98937f903a8ad7efae4a53a91c61c"
+    url "https://github.com/leonidboykov/gosling/releases/download/v0.2.0/gosling_0.2.0_macOS_x86_64.tar.gz"
+    sha256 "1988ab308fdc9eff38712edb37e9c7d938a2cfb98cf07f431d377e60f1371f62"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/leonidboykov/gosling/releases/download/v0.1.7/gosling_0.1.7_Linux_x86_64.tar.gz"
-      sha256 "1ee79cce855ddd4adc17e8289f570198e3e06949b8033aedc38b7c2ee67d01d0"
+      url "https://github.com/leonidboykov/gosling/releases/download/v0.2.0/gosling_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "60a09266b865f0692a11540ab5a7b9090cc3fb9ecde7911071ed3d2093576497"
     end
   end
 
